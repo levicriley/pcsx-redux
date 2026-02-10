@@ -46,6 +46,7 @@ CPPFLAGS_pkg_liburiparser += -Ithird_party/uriparser/include
 CPPFLAGS += -Ithird_party/zep/extensions
 CPPFLAGS += -Ithird_party/zep/include
 CPPFLAGS += -Ithird_party/xbyak/xbyak
+CPPFLAGS += -DXBYAK_STRICT_CHECK_MEM_REG_SIZE=0
 CPPFLAGS += -g
 CPPFLAGS += -DIMGUI_IMPL_OPENGL_LOADER_GL3W -DIMGUI_ENABLE_FREETYPE
 CPPFLAGS += -DZEP_FEATURE_CPP_FILE_SYSTEM
